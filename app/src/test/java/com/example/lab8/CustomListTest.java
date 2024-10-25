@@ -40,8 +40,8 @@ public class CustomListTest {
     @Test
     public void hasCityTest(){
         list = MockCityList();
-        City newCity = new City("Estevan", "SK"); // Create a City object
-        list.addCity(newCity); // Add the city to the list
+        City newCity = new City("Estevan", "SK");
+        list.addCity(newCity);
         assertTrue(list.hasCity(newCity));
     }
 
