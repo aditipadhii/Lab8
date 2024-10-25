@@ -48,6 +48,7 @@ public class CustomList extends ArrayAdapter<City> {
     }
 
     public int getCount(){
+
         return cities.size();
     }
 
@@ -63,6 +64,10 @@ public class CustomList extends ArrayAdapter<City> {
         if (cities.contains(city)) {
             cities.remove(city);
         }
+    }
+
+    public int countCities(){
+        return 0;
     }
 
 }
